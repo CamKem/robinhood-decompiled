@@ -83,7 +83,7 @@ Based on the repository structure:
 
 ### From the Upstream Creator
 
-> "My stuff is in rust. Many use RH, so I decompiled it quick to help others as it seems this is where people get stuck. Same process tho. Pull the api client out of an apk and write it in whatever language you want."
+> "My stuff is in rust. Many use RH, so I decompiled it quick to help others as it seems this is where people get stuck. Same process though. Pull the api client out of an apk and write it in whatever language you want."
 
 The approach:
 1. Use decompiled code to understand API structure
