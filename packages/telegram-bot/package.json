@@ -1,0 +1,36 @@
+{
+  "name": "@robinhood-trading/telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot interface for Robinhood trading",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "robinhood",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@robinhood-trading/shared-types": "^1.0.0",
+    "@robinhood-trading/utils": "^1.0.0",
+    "@robinhood-trading/api-client": "^1.0.0",
+    "@robinhood-trading/trading-service": "^1.0.0",
+    "grammy": "^1.19.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
