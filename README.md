@@ -2,6 +2,17 @@
 
 This repo is a consolidated view of a decompiled Robinhood Android app plus an audit bundle.
 
+## 🆕 Monorepo Structure
+
+This repository now includes a **TypeScript monorepo** for building automated trading tools based on the decompiled Robinhood API:
+
+- **[MONOREPO.md](./MONOREPO.md)** - Complete monorepo development guide
+- **[Agent Tasks](./.github/agent-tasks/README.md)** - Task definitions for parallel agent development
+- **[Trading Bot Plans](./trading-bot-plans/README.md)** - Implementation documentation
+- **[Packages](./packages/)** - TypeScript packages (API client, trading service, bots, etc.)
+
+Multiple agents can work in parallel on different packages. See [MONOREPO.md](./MONOREPO.md) for details.
+
 ## Quick map (start here)
 
 - Decompiled app tree:

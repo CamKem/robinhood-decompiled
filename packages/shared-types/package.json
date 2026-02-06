@@ -1,0 +1,23 @@
+{
+  "name": "@robinhood-trading/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types and interfaces for Robinhood trading",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "watch": "tsc --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "robinhood",
+    "types",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
